@@ -117,7 +117,7 @@
     display: flex;
     flex-flow: row wrap;
 
-    justify-content: space-between;
+    justify-content: space-around;
     .clients-item {
       width: 224px;
       height: 224px;
@@ -180,6 +180,66 @@
           background-position: center;
         }
       }
+    }
+  }
+}
+.contact {
+  margin: 90px 0 60px 0;
+  .contact-text {
+    float: left;
+    max-width: 625px;
+    font-size: 27px;
+    .contact-text_h3 {
+      font-size: 52px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #000;
+    }
+    .contact-text_p {
+
+    }
+    .contact-text_phone {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      text-transform: uppercase;
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+  .form-input {
+    display: block;
+    text-indent: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 5px solid #c9d7e3;
+    background-color: #f2f3f3;
+    width: 335px;
+    height: 50px;
+    outline: none;
+    &:nth-child(3) {
+      height: 113px;
+      padding-top: 17px;
+    }
+  }
+  .form-btn {
+    width: 335px;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+    background-color: #286191;
+    border: none;
+    outline: none;
+  }
+}
+.footer {
+  width: 100%;
+  background-color: #0d171f;
+  height: 90px;
+  .footer-text {
+    float: left;
+    color:#fff;
+    &:nth-child(2){
+      float: right;
     }
   }
 }

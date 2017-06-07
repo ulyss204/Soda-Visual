@@ -467,8 +467,7 @@ th {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     flex-flow: row wrap;
-    -webkit-box-pack: justify;
-    justify-content: space-between; }
+    justify-content: space-around; }
     .clients .container-flex .clients-item {
       width: 224px;
       height: 224px;
@@ -508,3 +507,51 @@ th {
         background: url(../images/logo_sony.png) no-repeat;
         background-size: contain;
         background-position: center; }
+
+.contact {
+  margin: 90px 0 60px 0; }
+  .contact .contact-text {
+    float: left;
+    max-width: 625px;
+    font-size: 27px; }
+    .contact .contact-text .contact-text_h3 {
+      font-size: 52px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #000; }
+    .contact .contact-text .contact-text_phone {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      text-transform: uppercase; }
+      .contact .contact-text .contact-text_phone span {
+        font-weight: 600; }
+  .contact .form-input {
+    display: block;
+    text-indent: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 5px solid #c9d7e3;
+    background-color: #f2f3f3;
+    width: 335px;
+    height: 50px;
+    outline: none; }
+    .contact .form-input:nth-child(3) {
+      height: 113px;
+      padding-top: 17px; }
+  .contact .form-btn {
+    width: 335px;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+    background-color: #286191;
+    border: none;
+    outline: none; }
+
+.footer {
+  width: 100%;
+  background-color: #0d171f;
+  height: 90px; }
+  .footer .footer-text {
+    float: left;
+    color: #fff; }
+    .footer .footer-text:nth-child(2) {
+      float: right; }
